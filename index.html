@@ -14,26 +14,40 @@
   </head>
   <body>
     <header>
-      <ul>
-        <li class="efeito-cursor">Home</li>
-        <li class="efeito-cursor">Projeto</li>
-        <li class="efeito-cursor">Sobre</li>
-        <li class="efeito-cursor">Contatos</li>
+      <ul class="cor">
+        <li class="efeito-cursor">
+          <a href="#">Home</a>
+        </li>
+        <li class="efeito-cursor">
+          <a href="#sobre-mim">Sobre</a>
+        </li>
+        <li class="efeito-cursor">
+          <a href="#projetos">Projetos</a>
+        </li>        
+        <li class="efeito-cursor">
+          <a href="#contatos">Contatos</a>
+        </li>
       </ul>
     </header>
 
     <section class="principal">
       <div>
+        <div class="container">
         <h1>Olá, eu sou <span>Driele Moreira</span></h1>
-        <p>
-          Desenvolvedora em ascensão, criando projetos e aprimorando novos
-          conhecimentos na área de programação.
-        </p>
-        <a class="botao efeito-cursor">Ver Projetos</a>
+        
+        <img class="img-js" src="./img/js-gif.gif" alt="git-js">
+      </div>
+      <p>
+        Desenvolvedora Web em ascensão, criando projetos e aprimorando novos
+        conhecimentos na área de programação.
+      </p>
+        <button>
+          <a href="#projetos">Ver Projetos</a>
+      </button>
       </div>
     </section>
 
-    <section class="secao">
+    <section class="secao" id="sobre-mim">
       <h2 class="titulo-secao">Sobre Mim</h2>
       <div class="sobre">
         <img class="img-sobre" src="./img/Driele-foto.png" alt="foto-driele" />
@@ -64,7 +78,7 @@
       </div>
     </section>
 
-    <section class="secao">
+    <section class="secao" id="projetos">
       <h2 class="titulo-secao">Projetos</h2>
       <div class="grade-projeto">
         <div class="card-projeto efeito-cursor">
@@ -80,7 +94,7 @@
               JavaScript. Funcional para verificação de moedas em relação ao
               Real Brasileiro.
             </p>
-            <a href="https://drielemoreira.github.io/CONVERSOR/"
+            <a href="https://drielemoreira.github.io/CONVERSOR/" target="_blank" rel="noopener noreferrer"
               >Ver Projetos →</a>
           </div>
         </div>
@@ -97,7 +111,7 @@
               Joguinho de sorte e habilidade, criado com as tecnologias HTML,
               CSS e JavaScript. Venha jogar e teste sua sorte!
             </p>
-            <a href=" https://drielemoreira.github.io/JOKENPO/"
+            <a href=" https://drielemoreira.github.io/JOKENPO/" target="_blank" rel="noopener noreferrer"
               >Ver Projetos →</a
             >
           </div>
@@ -115,15 +129,31 @@
               Projeto criado para página inicial do Starbucks, usando as
               tecnologias HTML, CSS e JavaScript. Primeiro projeto DevClub.
             </p>
-            <a href="https://drielemoreira.github.io/starbucks.teste/"
+            <a href="https://drielemoreira.github.io/starbucks.teste/" target="_blank" rel="noopener noreferrer"
               >Ver Projetos →</a
             >
+          </div>
+        </div>
+        <div class="card-projeto efeito-cursor">
+          <img
+            class="img-projeto"
+            src="./img/sorteio.png"
+            alt="image-sorteio"
+          />
+          <div class="info-projeto">
+            <h3>Sorteio</h3>
+            <p>
+              Projeto criado para sorteios de números aleatórios, usando as
+              tecnologias HTML, CSS e JavaScript. Mais projeto DevClub.
+            </p>
+            <a href="https://drielemoreira.github.io/SORTEIOS/" target="_blank" rel="noopener noreferrer"
+              >Ver Projetos →</a>
           </div>
         </div>
       </div>
     </section>
     
-    <section class="secao">
+    <section class="secao" id="contatos">
       <h2 class="titulo-secao">Contatos</h2>
       <div class="botoes-contatos">
 
